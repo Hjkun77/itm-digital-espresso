@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Frappuccino | Digital Espresso</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="../assets/styles/styles.css" />
+	</head>
+	<body>
+		<nav class="border-bottom">
+			<div class="container d-flex flex-wrap justify-content-center py-3">
+				<a
+					href="/"
+					class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+				>
+					<img src="../assets/images/logo.png" alt="logo" class="logo" />
+					<span class="fs-4 logo-name">Digital Espresso</span>
+				</a>
+
+				<ul class="nav nav-pills">
+					<li class="nav-item">
+						<a href="../index.html" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="../aboutus.html" class="nav-link">About Us</a>
+					</li>
+					<li class="nav-item">
+						<a href="../products.html" class="nav-link">Products</a>
+					</li>
+					<li class="nav-item">
+						<a
+							href="../branches.html"
+							class="nav-link active"
+							aria-current="page"
+							>Branches</a
+						>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<main>
+			<img class="product-image" src="../assets/images/frappuccino.jpg" />
+			<section class="py-5 text-center container">
+				<div class="row py-lg-5">
+					<div class="col-lg-6 col-md-8 mx-auto">
+						<h1 class="fw-light">Frappuccino</h1>
+						<p>Selling only for PHP 120</p>
+						<p>
+							<button
+								onClick="alert(`You just bought a coffee`)"
+								class="btn btn-primary my-2 mx-1"
+							>
+								Buy Now
+							</button>
+							<a href="../products.html" class="btn btn-secondary my-2 mx-1"
+								>Back to Products</a
+							>
+						</p>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer text-center text-lg-start">
+			<!-- Copyright -->
+			<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+				© 2020 Copyright:
+				<a class="text-dark" href="../index.html">Digital Espresso</a>
+			</div>
+			<!-- Copyright -->
+		</footer>
+	</body>
+</html>

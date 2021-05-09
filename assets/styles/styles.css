@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+	height: 32px;
+	margin-right: 8px;
+}
+
+.footer {
+	background-color: #6f4e37;
+	color: white;
+}
+
+.footer a {
+	color: white !important;
+}
+.btn-primary {
+	background-color: #6f4e37 !important;
+	border-color: #6f4e37 !important;
+}
+
+.btn-primary:hover {
+	background-color: white !important;
+	color: #6f4e37 !important;
+}
+
+.nav-link,
+.logo-name {
+	color: #6f4e37 !important;
+}
+
+.body-wrapper {
+	min-height: 100vh;
+}
+
+.active {
+	color: white !important;
+	background-color: #6f4e37 !important;
+}
+
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	background-size: cover !important;
+	background-position: center center !important;
+}
+
+@media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
+
+.carousel {
+	margin-bottom: 4rem;
+}
+.carousel-caption {
+	bottom: 3rem;
+	z-index: 10;
+}
+
+.carousel-item {
+	height: 32rem;
+}
+.carousel-item > img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	height: 32rem;
+}
+.marketing .col-lg-4 {
+	margin-bottom: 1.5rem;
+	text-align: center;
+}
+.marketing h2 {
+	font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+	margin-right: 0.75rem;
+	margin-left: 0.75rem;
+}
+
+.featurette-divider {
+	margin: 5rem 0;
+}
+
+.featurette-heading {
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -0.05rem;
+}
+
+@media (min-width: 40em) {
+	.carousel-caption p {
+		margin-bottom: 1.25rem;
+		font-size: 1.25rem;
+		line-height: 1.4;
+	}
+
+	.featurette-heading {
+		font-size: 50px;
+	}
+}
+
+@media (min-width: 62em) {
+	.featurette-heading {
+		margin-top: 7rem;
+	}
+}
+
+.table-striped tr td {
+	padding: 30px 8px;
+}
+
+.table-striped tr td img {
+	height: 240px;
+	width: 240px;
+	object-position: center;
+	object-fit: cover;
+}
+
+.product-image {
+	height: 50vh;
+	width: 100%;
+	object-position: center;
+	object-fit: cover;
+}
